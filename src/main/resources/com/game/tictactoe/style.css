@@ -19,3 +19,13 @@ src: url('SamuraiBlast-YznGj.ttf');
 -fx-background-color: none;
 -fx-font-family: 'Samurai Blast';
 }
+
+.gameBoard{
+-fx-background-color: transparent;
+-fx-border-color: transparent;
+}
+
+.gameAction{
+-fx-background-color: transparent;
+-fx-border-color: white;
+}
