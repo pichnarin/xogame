@@ -11,10 +11,11 @@ public class Application extends javafx.application.Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("startUpITF.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("tictactoe");
-        stage.centerOnScreen();
         stage.getIcons().add(new Image("https://cdn-icons-png.flaticon.com/512/566/566294.png"));
+        Scene scene = new Scene(fxmlLoader.load(), 900, 550);
+        stage.setTitle("ticktacktoe");
+        stage.setResizable(false);
+        stage.centerOnScreen();
         stage.setScene(scene);
         stage.show();
     }

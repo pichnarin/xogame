@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
+<?import java.net.URL?>
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.game.tictactoe.Controller">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <stylesheets>
+      <URL value="@style.css" />
+   </stylesheets>
+   <ImageView fitHeight="557.0" fitWidth="907.0" layoutY="-1.0">
+      <Image url="@background.jpg" />
+   </ImageView>
+   <Button id="firstLevel" layoutX="140.0" layoutY="74.0" mnemonicParsing="false" styleClass="firstLevel" text="Level 1" textFill="WHITE" />
+   <Button id="secondLevel" layoutX="400.0" layoutY="74.0" mnemonicParsing="false" styleClass="secondLevel" text="Level 2" textFill="WHITE" />
+   <Button id="thirdLevel" layoutX="661.0" layoutY="74.0" mnemonicParsing="false" styleClass="thirdLevel" text="Level 3" textFill="WHITE" />
+</AnchorPane>

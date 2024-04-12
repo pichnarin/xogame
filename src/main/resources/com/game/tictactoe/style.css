@@ -1,0 +1,21 @@
+@font-face{
+font-family: 'Samurai Blast';
+src: url('SamuraiBlast-YznGj.ttf');
+}
+
+.firstLevel{
+-fx-font-size: 20px;
+-fx-background-color: none;
+-fx-font-family: 'Samurai Blast';
+}
+.secondLevel{
+-fx-font-size: 20px;
+-fx-background-color: none;
+-fx-font-family: 'Samurai Blast';
+}
+
+.thirdLevel{
+-fx-font-size: 20px;
+-fx-background-color: none;
+-fx-font-family: 'Samurai Blast';
+}
