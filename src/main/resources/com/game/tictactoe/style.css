@@ -29,3 +29,15 @@ src: url('SamuraiBlast-YznGj.ttf');
 -fx-background-color: transparent;
 -fx-border-color: white;
 }
+
+.goBack{
+-fx-background-color: transparent;
+-fx-border-color: none;
+-fx-font-family: 'Samurai Blast';
+-fx-font-size: 20px;
+}
+
+.LevelTitle{
+-fx-font-family: 'Samurai Blast';
+-fx-font-size: 20px;
+}
