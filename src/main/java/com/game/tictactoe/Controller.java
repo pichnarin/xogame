@@ -7,7 +7,6 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javafx.event.ActionEvent;
 import java.net.URL;
@@ -24,12 +23,6 @@ public class Controller implements Initializable {
 
     @FXML
     private Button NormalBtn;
-
-    @FXML
-    private Button BackToStartUp;
-
-    @FXML
-    private AnchorPane main;
 
     private Stage stage = null;
 
@@ -50,10 +43,7 @@ public class Controller implements Initializable {
                 stage = (Stage)((Node) event.getSource()).getScene().getWindow();
                 parent = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("thirdLevel.fxml")));
             }
-            else if(event.getSource() == BackToStartUp){
-                stage =(Stage) ((Node) event.getSource()).getScene().getWindow();
-                parent =FXMLLoader.load(Objects.requireNonNull(getClass().getResource("StartUpITF.fxml")));
-            }
+
             assert parent != null;
             Scene scene = new Scene(parent);
             stage.setScene(scene);
