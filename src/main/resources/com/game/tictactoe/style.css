@@ -4,40 +4,108 @@ src: url('SamuraiBlast-YznGj.ttf');
 }
 
 .firstLevel{
+-fx-transition: font-size 0.3s ;
+-fx-padding: 10px 20px;
 -fx-font-size: 20px;
 -fx-background-color: none;
 -fx-font-family: 'Samurai Blast';
 }
 .secondLevel{
+-fx-padding: 10px 20px;
+-fx-transition: font-size 0.3s ;
 -fx-font-size: 20px;
 -fx-background-color: none;
 -fx-font-family: 'Samurai Blast';
 }
 
 .thirdLevel{
+-fx-padding: 10px 20px;
+-fx-transition: font-size 0.3s ;
 -fx-font-size: 20px;
 -fx-background-color: none;
 -fx-font-family: 'Samurai Blast';
 }
 
 .gameBoard{
--fx-background-color: transparent;
+-fx-background-color: none;
 -fx-border-color: transparent;
 }
 
 .gameAction{
--fx-background-color: transparent;
+-fx-background-color: none;
 -fx-border-color: white;
 }
 
 .goBack{
--fx-background-color: transparent;
+-fx-background-color: none;
 -fx-border-color: none;
 -fx-font-family: 'Samurai Blast';
 -fx-font-size: 20px;
 }
 
 .LevelTitle{
+-fx-font-family: 'Samurai Blast';
+-fx-font-size: 20px;
+}
+
+.firstLevel:hover{
+-fx-font-size: 25px;
+-fx-translate-y: -3px;
+-fx-translate-x: -5px;
+}
+
+.secondLevel:hover {
+-fx-font-size: 25px;
+-fx-translate-y: -3px;
+-fx-translate-x: -5px;
+}
+
+.thirdLevel:hover{
+-fx-font-size: 25px;
+-fx-translate-y: -3px;
+-fx-translate-x: -5px;
+}
+
+.xTurn{
+-fx-background-color: none;
+-fx-border-color: white;
+-fx-font-family: 'Samurai Blast';
+-fx-text-color: white;
+-fx-font-size: 15px;
+}
+
+.xTurn:hover{
+ -fx-background-color: white;
+}
+
+.scoreBoard:hover{
+-fx-background-color: white;
+}
+.normalLevelPane{
+-fx-background-color: none;
+-fx-border-color: none;
+-fx-font-family: 'Samurai Blast';
+-fx-font-size: 20px;
+}
+
+.normalLevelButton{
+-fx-background-color: none;
+-fx-border-color: white;
+-fx-font-family: 'Samurai Blast';
+-fx-font-size: 25px;
+}
+
+
+.scoreBoard{
+-fx-background-color: transparent;
+-fx-border-color: white;
+-fx-font-family: 'Samurai Blast';
+-fx-font-size: 20px;
+}
+
+.restartButton{
+-fx-background-color: transparent;
+-fx-border-color: none;
 -fx-font-family: 'Samurai Blast';
 -fx-font-size: 20px;
 }
